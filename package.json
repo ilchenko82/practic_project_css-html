@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tigriceo/parcel-75-template.git"
+    "url": "git+https://github.com/ilchenko82/practic_project_css-html.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tigriceo/parcel-75-template/issues"
+    "url": "https://github.com/ilchenko82/practic_project_css-html/issues"
   },
   "dependencies": {
     "imask": "^6.4.3",
