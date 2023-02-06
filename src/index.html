@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,21 +7,26 @@
     
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
+	 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <include src="./partials/header.html"></include>
 
     <main>
-      <include src="./partials/sections/section-hero.html"></include>
-      <include src="./partials/sections/section-slider.html"></include>
-      <include src="./partials/sections/section-inputs.html"></include>
+      <include src="./partials/hero.html"></include>
+		<include src="./partials/how_we_work.html"></include>
+		<include src="./partials/block_video.html"></include>
+		<include src="./partials/our_service.html"></include>
+		<include src="./partials/covid19.html"></include>
+		<include src="./partials/our_areas.html"></include>
+		<include src="./partials/our_differences.html"></include>
+		<include src="./partials/articles.html"></include>
+		<include src="./partials/block_form.html"></include>
     </main>
 
-    <include src="./partials/footer.html"></include> 
-    <include src="./partials/modals.html"></include>
-
-    
+    <include src="./partials/footer.html"></include>
     <script src="./js/vendors/swiper-bundle.min.js"></script>
-    <script src="./js/vendors/nice-select2.js"></script>
+    <!-- <script src="./js/vendors/nice-select2.js"></script> -->
+	 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
