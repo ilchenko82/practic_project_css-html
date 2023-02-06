@@ -5,7 +5,7 @@
 	&__container {
 		width: 100%;
 		max-width: 1280px;
-		border: solid 1px red;
+		// border: solid 1px ;
 		display: flex;
 		gap: 40px;
 		justify-content: space-between;
@@ -62,18 +62,34 @@
 	&__link {
 		
 		text-decoration: none;
-		color: black;
+		color: $color-primary;
 		margin-top: 10px;
 		margin-bottom: 10px;
 
-
+	}
 
 	&__link:hover,
 	&__link:focus {
-		color: black;
+		color: $color-tertiary;
+
 }
 }
+
+.button {
+	// width: 174px;
+	// height: 54px;
+	min-width: 204px;
+	padding: 17px 24px;
+	border-radius: 14px;
+	border: 1px solid $button-blue;
+	cursor: pointer;
 }
+
+.blue{
+	background-color: $button-blue;
+	color: $color-text-secondary;
+}
+
 /* .contacts {
 
 	&__item {
