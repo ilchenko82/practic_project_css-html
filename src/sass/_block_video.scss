@@ -1,0 +1,17 @@
+.block_video {
+    &__title {
+        text-align: center;
+        margin-bottom: 13px;
+    }
+
+    &__text {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    &__list {
+            display: flex;
+            justify-content: center;
+            gap: 86px;
+        }
+}
