@@ -15,7 +15,7 @@
             justify-content: center;
             gap: 86px;
         }
-&__link {
+&__item {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -35,4 +35,8 @@
                 color: $color-primary;
         }
 
+        &__bg {
+            max-width: 1012px;
+            max-height: 570px;
+        }
 }
