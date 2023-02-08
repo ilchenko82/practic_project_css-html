@@ -1,0 +1,106 @@
+.covid {
+    &__container {
+        padding: 138px 74px 138px 0;        
+        border-radius: 24px;
+        background-color: $color-background-tertiary;
+        background-image: url(../../src/images/covid.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    &__list {
+        margin-top: 0;
+        padding: 0;
+        margin-bottom: 12px;
+    }
+    &__item {
+    max-width: 474px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
+        color: $color-secondary;
+        margin-bottom: 18px;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.12;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+        color: $color-secondary;
+        margin-bottom: 17px;
+    }
+    &__txt {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        color: $color-secondary;
+    }
+
+    &__button {
+        display: inline-block;
+            
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        
+        width: 217px;
+        height: 72px;
+        border: none;
+        border-radius: 14px;
+        cursor: pointer;
+        color: $color-secondary;
+        background-color: $color-tertiary;
+        padding: 26px 38px;
+
+        margin-right: 28px;
+
+        @extend %cubic;
+    }
+}
+
+
+.call-thumb {
+    display: flex;
+    align-items: center;
+
+&__icon {
+    width: 72px;
+    height: 72px;
+    filter: drop-shadow(0px 4px 10px rgba(20, 20, 43, 0.04));
+    margin-right: 16px;
+
+}
+&__list {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+&__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12px;
+
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: $color-secondary;
+    margin-bottom: 14px;
+}
+&__phone {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.28;
+    color: $color-secondary;
+}
+}
+
+.quote-and-call {
+display: flex;}
+
+.covid-thumb {
+    max-width: 556px;
+    margin-left: auto;
+}
