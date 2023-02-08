@@ -1,18 +1,11 @@
 .container {
-    max-width: 1200px;
-    padding: 0 20px;
+    max-width: 1280px;
+    padding: 0 100px;
     margin: 0 auto;
 }
 
 .section {
     padding: 60px 0;
-}
-
-.flex-box {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
 .visually-hidden {
@@ -35,8 +28,9 @@ hr{
     background-color: #000;
 }
 
-.swiper{
-    &-wrapper{
-        list-style: none;
-    }
+.ul-nolist{
+	text-decoration:none;
+	list-style: none;
+
 }
+

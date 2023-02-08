@@ -1,13 +1,104 @@
-.header{
-    padding: 10px 0;
-    background-color: red;
+.header {
+	font-family:'Roboto';
+	font-size: 18px;
+
+	&__container {
+		width: 100%;
+		max-width: 1280px;
+		// border: solid 1px ;
+		display: flex;
+		gap: 40px;
+		justify-content: space-between;
+		align-items: center;
+		
+	padding: 38px 110px 38px 110px;
+	}
+	&__cart{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin-left: auto;
+		gap: 24px;
+
+		&_current {
+			color: white;
+			cursor: pointer;
+		}
+
+		&_current:hover,
+		&_current:focus {
+			color: white;
+		}
+	}
+
+			&_current {
+			color: white;
+
+		}
+
+		&_current:hover,
+		&_current:focus {
+			color: white;
+		}
 }
-.nav-list{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    list-style: none;
-    &__link{
-        color: #fff;
-    }
+.nav {
+
+	&__menu {
+		display: flex;
+		justify-content: flex-start;
+		padding-left: 0;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	&__item {
+
+		margin-left: 20px;
+	}
+	&__item:first-child{
+		margin-left: 0;
+	}
+
+	&__link {
+		
+		text-decoration: none;
+		color: $color-primary;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+
+	&__link:hover,
+	&__link:focus {
+		color: $color-tertiary;
+
 }
+}
+
+.button {
+	// width: 174px;
+	// height: 54px;
+	min-width: 204px;
+	padding: 17px 24px;
+	border-radius: 14px;
+	border: 1px solid $button-blue;
+	cursor: pointer;
+}
+
+.blue{
+	background-color: $button-blue;
+	color: $color-text-secondary;
+}
+
+/* .contacts {
+
+	&__item {
+	}
+
+	&__link {
+	}
+
+	&__icon {
+	}
+}
+ */

@@ -1,8 +1,21 @@
+@import './utils/fonts';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/variables';
+
+@import './reset';
 @import './common';
 @import './base';
+@import './button';
 @import './header';
-@import './example';
-@import './section/section';
+@import './hero';
+@import './how_we_work';
+@import './block_video';
+@import './our_service';
+@import './covid19';
+@import './our_areas';
+@import './our_differences';
+@import './articles';
+@import './block_form';
 
 @import './footer';
-@import './modals';
