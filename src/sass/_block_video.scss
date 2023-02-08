@@ -1,5 +1,5 @@
 .block_video {
-    margin-bottom: 481px;
+    // margin-bottom: 481px;
     &__title {
         text-align: center;
         margin-bottom: 13px;
@@ -14,8 +14,9 @@
             display: flex;
             justify-content: center;
             gap: 86px;
+            margin-bottom: 40px;
         }
-&__link {
+&__item {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -35,4 +36,8 @@
                 color: $color-primary;
         }
 
+        &__bg {
+            max-width: 1012px;
+            max-height: 570px;
+        }
 }
