@@ -1,3 +1,7 @@
+body{
+	font-family:'Roboto';
+}
+
 .container {
     max-width: 1280px;
     padding: 0 100px;
@@ -21,6 +25,9 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+ul{
+	padding: 0;
+}
 
 hr{
     width: 100%;
@@ -33,4 +40,8 @@ hr{
 	list-style: none;
 
 }
-
+.p-text{
+	color: $color-text-tertiary;
+	font-size: 21px;
+line-height: 1,43;
+}
