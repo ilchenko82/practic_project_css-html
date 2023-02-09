@@ -20,6 +20,14 @@
         border: 1px solid $color-border;
         box-shadow: 0px 4px 10px $color-shadow;
         border-radius: 14px;
+        @extend %cubic;
+
+        &:hover,
+        &:focus {
+            background-color: $color-tertiary;
+            color: $color-secondary;
+            border-color: $color-tertiary;
+        }
     }
 
     &__list {
